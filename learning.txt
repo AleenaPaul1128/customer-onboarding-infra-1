@@ -25,6 +25,18 @@ d. region in portal == location in terraform
 e. pricing tier in portal == sku_name in terraform (standard, premium)
 f. days to retain deleted vaults in portal == soft_delete_retention_days in script ( 7 to 90 days)
 
+Azure Conatiner Registry
+----------------------------
+a. subscription ID
+B. Resource grp name
+c.location
+e. container registry name (unique)
+f. pricing in portal == sku in terraform (basic, standard, premium)
+e. admin_enables = true (not manadatory)
+
+
+
+
 
 
 
