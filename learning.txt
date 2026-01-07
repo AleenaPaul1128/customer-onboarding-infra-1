@@ -1,0 +1,9 @@
+Resource Group
+----------------
+while creating rg frm portal mandatory parameters are
+a. Subscription ID
+b. Resource grp name
+c.Location - which is nothing but "region" in portal.
+d. tags - optional
+then review and create
+
