@@ -11,9 +11,22 @@ Storage Account
 ----------------
 a. Subscription ID
 b. resource grp name
-c. storage account name (unique name )
-d. Performance in portal == Account Tier for terraform ( Standard or Premium)
-e. Redudancy in portal == account replication type in terraform (LRS,GRS, ZRS, RAGRS, GZRS, RA-GZRS)
+c. region in portal == location in terraform
+d. storage account name (unique name )
+e. Performance in portal == Account Tier for terraform ( Standard or Premium)
+f. Redudancy in portal == account replication type in terraform (LRS,GRS, ZRS, RAGRS, GZRS, RA-GZRS)
+
+Key Vault
+------------
+a. Subscription ID
+b. Resource grp name
+c. Key Vault name (unique)
+d. region in portal == location in terraform
+e. pricing tier in portal == sku_name in terraform (standard, premium)
+f. days to retain deleted vaults in portal == soft_delete_retention_days in script ( 7 to 90 days)
+
+
+
 
 
 
